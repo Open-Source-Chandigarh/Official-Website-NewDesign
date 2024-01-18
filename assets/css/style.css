@@ -443,7 +443,8 @@ Header Style
   font-weight: 400;
   text-transform: none;
   border-radius: 20px;
-  padding-left: 0px;
+  /* Changed Padding left for Auto Left */
+  padding-left: 41px;
 }
 
 .header-area .main-nav .nav li:last-child a i {
@@ -1695,6 +1696,12 @@ Contact Page Style
 
 .contact-page #contact-form button:hover {
   background-color: #f35525;
+}
+.contact-nav{
+  position: absolute;
+  /* margin-right: 30px; */
+  right: 91px;
+  transition: 0.7s;
 }
 
 

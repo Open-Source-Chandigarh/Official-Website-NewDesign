@@ -124,3 +124,11 @@
 
 
 })(window.jQuery);
+// Added Effect of Sliding in Contact Button
+document.querySelector('.contact-nav-a').addEventListener('click',()=>{
+	console.log("Contact us Sliding");
+	document.querySelector('.contact-nav-a').style.paddingRight='41px'
+	document.querySelector('.contact-nav-a').style.paddingLeft='5px'
+	document.querySelector('.contact-nav').style.right='-8px';
+	document.querySelector('.contact-nav').style.marginRight='2px';
+})
