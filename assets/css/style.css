@@ -391,6 +391,16 @@ Header Style
   letter-spacing: 2px;
 }
 
+/* This part of the code is responsible for the osc logo on navbar */
+
+#nav-logo {
+  margin-top: 0vh;
+  width: 22vh; 
+  height: auto; 
+}
+
+/* --------------------------------------------------------------- */
+
 .background-header .main-nav .logo h1 {
   line-height: 80px;
 }
